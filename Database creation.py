@@ -1,3 +1,7 @@
+# Author: Toni Davis
+# Purpose: Create the inital database to store calendar event items
+
+
 from pymongo import MongoClient
 
 # Connect to MongoDB
@@ -38,4 +42,4 @@ print(f"Event inserted with ID: {event_id}")
 events = events_collection.find()
 
 for record in events:
-       print(record)
+    print(record)

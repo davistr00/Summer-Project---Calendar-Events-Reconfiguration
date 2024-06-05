@@ -1,4 +1,5 @@
-
+# Author: Toni Davis
+# Purpose: Have an environment to add items and test queries
 from pymongo import MongoClient
 # Connect to MongoDB
 client = MongoClient("mongodb://localhost:27017/")
