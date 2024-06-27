@@ -9,6 +9,7 @@ client = MongoClient("mongodb://localhost:27017/")
 # Checks connection
 print(client)
 
+
 # Create the database
 db = client["MainCal_db"]
 
